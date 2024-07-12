@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1a1a; /* Warna latar belakang gelap */
+    padding: 20px;
+    color: #fff; /* Warna teks putih */
+}
+
+h2 {
+    background: #333; /* Warna latar belakang untuk judul */
+    color: #ffcc80; /* Warna teks judul */
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px #666;
+}
+
+form {
+    background: #333; /* Warna latar belakang form */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan form */
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #666; /* Warna border input */
+    background-color: #444; /* Warna latar belakang input */
+    color: #ccc; /* Warna teks input */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background: #ffcc80; /* Warna latar belakang tombol */
+    color: #333; /* Warna teks tombol */
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #ffab40; /* Warna latar belakang tombol saat dihover */
+}
+
+select {
+    background: #444; /* Warna latar belakang select */
+    color: #ccc; /* Warna teks select */
+}
+
+textarea {
+    resize: vertical;
+    background-color: #444; /* Warna latar belakang textarea */
+    color: #ccc; /* Warna teks textarea */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+h2, p, label {
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0;
+}
+
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #ffcc80; /* Warna border input saat difokus */
+    box-shadow: 0 0 5px rgba(255, 204, 128, 0.5); /* Efek bayangan input saat difokus */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #666; /* Warna garis pemisah */
+    margin: 20px 0;
+}
