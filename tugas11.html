@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Examples</title>
+    <link rel="stylesheet" href="tugas11.css">
+</head>
+<body>
+
+<!-- Form 1: Basic Name Input -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Nama Anda:</h2>
+    <input type="text" name="nama"><br>
+    <input type="submit" name="InputNama">
+</form>
+
+<!-- Form 2: Multiple Friend Names Input -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Daftar Teman-teman Saya Belajar PHP:</h2>
+    1. <input type="text" name="nama1"><br>
+    2. <input type="text" name="nama2"><br>
+    3. <input type="text" name="nama3"><br>
+    4. <input type="text" name="nama4"><br>
+    <input type="submit" name="InputTeman" value="Submit"/>
+</form>
+
+<!-- Form 3: Login Form -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Silakan Login:</h2>
+    Username: <input type="text" name="username"/><br />
+    Password: <input type="password" name="password"/><br />
+    <input type="submit" name="Login" value="Login"/>
+    <input type="reset" name="reset" value="Reset"/>
+</form>
+
+<!-- Form 4: Program Studi Selection -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Pilih Program Studi:</h2>
+    <input type="radio" name="prodi" value="TIF" checked/> Teknik Informatika <br />
+    <input type="radio" name="prodi" value="TI"/> Teknik Industri <br />
+    <input type="radio" name="prodi" value="TE"/> Teknik Elektro <br />
+    <input type="radio" name="prodi" value="TK"/> Teknik Kimia <br />
+    <input type="radio" name="prodi" value="TP"/> Teknologi Pangan <br />
+    <input type="submit" name="PilihProdi" value="Pilih"/>
+    <input type="reset" name="reset" value="Reset"/>
+    
+</form>
+
+<!-- Form 5: Kpop Favorit -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Pilih Kpop Favorit Kamu:</h2>
+    <input type="checkbox" name="kpop[]" value="BTS" checked> BTS <br>
+    <input type="checkbox" name="kpop[]" value="BLACKPINK"> BLACKPINK <br>
+    <input type="checkbox" name="kpop[]" value="TWICE"> TWICE<br>
+    <input type="checkbox" name="kpop[]" value="EXO"> EXO<br>
+    <input type="submit" name="PilihKpop" value="Pilih"/>
+    <input type="reset" name="reset" value="Reset"/>
+</form>
+
+<!-- Form 6: Film Hantu Favorit (Combo Box) -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Pilih Film Hantu Favorit :</h2>
+    <select name="hantu">
+        <option value="The Conjuring">The Conjuring</option>
+        <option value="Insidious">Insidious</option>
+        <option value="The Grudge">The Grudge</option>
+        <option value="Paranormal Activity">Paranormal Activity</option>
+        <option value="Annabelle">Annabelle</option>
+        <option value="A Quiet Place">A Quiet Place</option>
+    </select>
+    <input type="submit" name="PilihHantu" value="Pilih"/>
+</form>
+
+<!-- Form 7: Film Hantu Favorit (List Box) -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Pilih Film Hantu Favorit Saudara:</h2>
+    <select name="hantu" size="4">
+        <option value="The Conjuring">The Conjuring</option>
+        <option value="Insidious">Insidious</option>
+        <option value="The Grudge">The Grudge</option>
+        <option value="Paranormal Activity">Paranormal Activity</option>
+        <option value="Annabelle">Annabelle</option>
+        <option value="A Quiet Place">A Quiet Place</option>
+    </select>
+    <input type="submit" name="PilihHantu" value="Pilih"/>
+</form>
+
+<!-- Form 8: Kritik dan Saran -->
+<form action="tugas11.php" method="post" name="input">
+    <h2>Isikan Kritik dan Saran Saudara:</h2>
+    <textarea name="saran" cols="40" rows="5"></textarea><br>
+    <input type="submit" name="ProsesSaran" value="Input Saran"/>
+</form>
+
+</body>
+</html>
